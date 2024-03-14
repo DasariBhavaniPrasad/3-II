@@ -1,0 +1,64 @@
+img{
+  position: relative; left: 30%;  height: 150px;
+
+}
+
+.col-sm-8{
+  /* border: 2px solid red; */
+ border-right: 2px solid black;
+  height: auto;
+  padding-left: 50px;
+  text-align: justify;
+  padding-right: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+
+.col-sm-4{
+  /* border: 2px solid green; */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  height: auto;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+
+  h1 {
+    background-image: linear-gradient(to right, #00FFFF, #0000FF);
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  div{
+    padding: 10px;
+  }
+  hr{
+    width: 50%;
+  }
+  th{
+    background-color: #000070;
+    border: 1px solid gainsboro;
+    color: white;
+
+  }
+  td{
+    border: 1px solid gainsboro;
+  }
+  a{
+    text-decoration: none;
+    color: gray;
+  }
+a:hover{
+
+
+    color: transparent;
+    text-decoration: none;
+    background: linear-gradient(to right, cyan, lightgreen);
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-size 0.3s ease;
+    background-size: 200% 100%;
+
+}
